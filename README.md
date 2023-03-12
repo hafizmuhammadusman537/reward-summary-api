@@ -2,6 +2,25 @@
 
 This Spring Boot application provides a REST API for calculating reward points for customers based on their purchases.
 
+## 1. Running a Containerized API
+This is a guide for running a containerized Spring Boot API using Docker. The API provides a reward-summary endpoint that accepts a JSON payload and returns a summary of reward points earned by customers.
+
+### Prerequisites
+To run the containerized Spring Boot API, Docker must be installed on your system.
+### Running the Container
+To run the containerized Spring Boot API, follow these steps:
+1. Open a terminal or command prompt.
+2. Pull the Docker image from the Docker registry by running the following command:
+```
+docker pull hafizmuhammadusman537/reward-summary-api
+```
+3. Start the container by running the following command:
+```
+docker run -p 8080:8080 hafizmuhammadusman537/reward-summary-api
+```
+4. Once the container is up and running you can test the api. API details given below.
+
+## 2. Running a API without Docker
 ## Requirements
 - Java 11
 - Maven
@@ -14,7 +33,7 @@ This Spring Boot application provides a REST API for calculating reward points f
 4. Run `mvn clean package` to build the application
 5. Run `java -jar target/codingChallenge-0.0.1-SNAPSHOT.jar` to start the application
 
-## API Documentation
+## 3. API Documentation
 
 ### `http://localhost:8080/api/reward-summary` [POST]
 
@@ -86,7 +105,7 @@ API can be tested on Swagger UI. Go to `http://localhost:8080/swagger-ui.html#/`
 
 ![Image A](./static/swagger.png)
 
-## Dataset Details
+## 4. Dataset Details
 ### Transactions (Purchases):
 ![Image A](./static/transactions.png)
 ### Reward Points per month:

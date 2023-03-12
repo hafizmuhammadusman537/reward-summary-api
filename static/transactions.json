@@ -1,0 +1,52 @@
+[
+  {
+    "customer": "A",
+    "date": "2022-01-01",
+    "amount": 75.0
+  },
+  {
+    "customer": "A",
+    "date": "2022-01-15",
+    "amount": 100.0
+  },
+  {
+    "customer": "B",
+    "date": "2022-01-02",
+    "amount": 120.0
+  },
+  {
+    "customer": "C",
+    "date": "2022-01-10",
+    "amount": 50.0
+  },
+  {
+    "customer": "A",
+    "date": "2022-02-05",
+    "amount": 80.0
+  },
+  {
+    "customer": "B",
+    "date": "2022-02-12",
+    "amount": 70.0
+  },
+  {
+    "customer": "C",
+    "date": "2022-02-28",
+    "amount": 150.0
+  },
+  {
+    "customer": "A",
+    "date": "2022-03-07",
+    "amount": 90.0
+  },
+  {
+    "customer": "B",
+    "date": "2022-03-15",
+    "amount": 60.0
+  },
+  {
+    "customer": "C",
+    "date": "2022-03-20",
+    "amount": 200.0
+  }
+]
